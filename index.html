@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="amz.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="amz.js"></script>
+</head>
+
+<body>
+    <!-- Hello user side bar -->
+    <!-- sidebar -->
+  <form>
+
+    <div id="sidebar" class="sidebar">
+        <div class="sidebarClose">
+            <h1>Hello User!</h1>
+            <!-- <p onclick="handelCloseSidebar()">Close</p> -->
+            <i onclick="handelCloseSidebar()" class="fa fa-window-close" aria-hidden="true"></i>
+        </div>
+        <hr />
+        <div class="sidebarTitle">
+            <h3>Trending</h3>
+            <p>Best Sellers</p>
+            <p>New Releases</p>
+        </div>
+        <hr />
+
+        <div class="sidebarTitle">
+            <h3>Digital Content & Devices</h3>
+            <div class="sidebarOptions">
+                <p>Echo & Alexa</p>
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+            <div class="sidebarOptions">
+                <p>Fire TV</p>
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- header -->
+
+    <div class="header">
+        <img src="Capture.PNG" alt="logo">
+
+
+        <div class="headerData">
+            <i style="color: white; margin-right:15px;" class="fa fa-map-marker" aria-hidden="true"></i>
+
+            <div class="headertext">
+                <p>Deliver to User</p>
+                <h3>Nagpur 40009</h3>
+            </div>
+        </div>
+
+        <input type="text" name="" id="" placeholder="search Amazon.in">
+
+        <div class="headerData">
+            <div class="headertext">
+                <p>Hello User</p>
+                <h3>Accounts & Lists</h3>
+            </div>
+            <i style="color: white; " class="fa fa-sort-desc" aria-hidden="true"></i>
+        </div>
+
+        <div class="headertext headerSomething">
+            <p>Returns</p>
+            <h3> & Order</h3>
+        </div>
+
+        <div class="headerSomething">
+            <i style="color: white; font-size: 30px;" class="fa fa-shopping-cart" aria-hidden="true"></i>
+        </div>
+
+    </div>
+
+    <!-- navBar -->
+
+    <nav>
+        <p>
+            <i onclick="handelOpenSidebar()" style="color: white; margin-right:15px;" class="fa fa-bars"
+                aria-hidden="true">ALL</i>
+        </p>
+        <p>Sell</p>
+        <p>Amaazon Mini TV</p>
+        <p>Best Seller</p>
+        <p>Mobile's</p>
+        <p>Today's Deals</p>
+        <p>Customers Services</p>
+        <p>Electronics</p>
+        <p>Prime</p>
+
+        <p>New Releases</p>
+    </nav>
+
+
+    <!-- products -->
+
+     <div class="imgTag">
+        <img src="prime.jpg" alt="Prime">
+     </div>
+
+    <div id="products" class="products">
+
+    </div>
+
+    <br>
+
+
+    <footer>
+        <a href="#" class="footer-title">
+          Back to top
+        </a>
+        <div class="footer-items">
+          <ul>
+            <h3>Get to Know Us</h3>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press Release</a></li>
+            <li><a href="#">Amazon Science</a></li>
+          </ul>
+          <ul>
+            <h3>Connect with Us</h3>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+          <ul>
+            <h3>Make Money with Us</h3>
+            <li><a href="#">Sell on Amazon</a></li>
+            <li><a href="#">Sell under Amazon Accelerator</a></li>
+            <li><a href="#">Protect and Build Your Brand</a></li>
+            <li><a href="#">Amazon Global Selling</a></li>
+            <li><a href="#">Become an Affiliate</a></li>
+            <li><a href="#">Fulfillment by Amazon</a></li>
+            <li><a href="#">Advertise Your Products</a></li>
+            <li><a href="#">Amazon Pay on Merchants</a></li>
+          </ul>
+          <ul>
+            <h3>Let Us Help You</h3>
+            <li><a href="#">COVID-19 and Amazon</a></li>
+            <li><a href="#">Your Account</a></li>
+            <li><a href="#">Return Centre</a></li>
+            <li><a href="#">100% Purchase Protection</a></li>
+            <li><a href="#">Amazon App Download</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </div>
+      </footer>
+
+</form>
+
+</body>
+
+</html>
